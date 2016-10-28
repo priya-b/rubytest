@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  projectproject_name: MyString
+  duration: MyString
+  team_size: 1
+  cost: 1
+  domain: MyString
+
+two:
+  projectproject_name: MyString
+  duration: MyString
+  team_size: 1
+  cost: 1
+  domain: MyString

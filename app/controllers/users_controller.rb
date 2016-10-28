@@ -9,9 +9,12 @@ class UsersController < ApplicationController
 
     def create
 		@user = User.new(user_params)
-		@user.save
+		 if @user.save
 		redirect_to user_list_path
+    else
+        render 'new'
 		end	
+        end    
 
     def edit
     @user = User.find_by_id(params[:id])
